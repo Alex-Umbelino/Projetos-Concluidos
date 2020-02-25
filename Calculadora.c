@@ -15,6 +15,14 @@ void main()
 
     s=n1+n2;
     printf("\n%d+%d=%d", n1, n2, s);
+    n1=n2=0;
+    //subtração agora
+    printf("\n\n\n\nDigite um numero inteiro:");
+    scanf("%d",&n1);
+    printf("\nDigite o numero que irá subtrir do anterior:");
+    scanf("%d",&n2);
+    sub=n1-n2;
+    printf("\n %d-%d=%d\n\n\n\n" ,n1, n2, sub);
 
 
 
